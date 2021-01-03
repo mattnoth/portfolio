@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Matthew Noth',
-  subtitle: `I am a software engineer and web developer.`,
+  subtitle: `I'm a software engineer and web developer.`,
   cta: '',
 };
 
@@ -74,11 +74,6 @@ export const footerData = {
       id: nanoid(),
       name: 'twitter',
       url: 'https://twitter.com/moodsmithmusic?lang=en',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
     },
     {
       id: nanoid(),
