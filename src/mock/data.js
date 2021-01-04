@@ -19,15 +19,24 @@ export const heroData = {
 export const aboutData = {
   img: 'profile-matt.jpeg',
   paragraphOne:
-    'Go getter software engineer with background in music production, seeking junior front-end developer role in a small to medium sized development house or web based company. An adaptive thinker who particularly enjoys utilizing creative flair to create enjoyable user experiences by using simple solutions to coding problems and building lightweight applications.',
+    'Go-getting software engineer with a background in music production, fresh out of General Assembly’s Software Engineering bootcamp. I am seeking a junior developer role in a small to medium sized development house or web based company to begin my coding career.',
   paragraphTwo:
-    'I offer a unique mix of organization and imagination, connecting creative skills built through music production with software development, displaying data in both standard and unique ways particular to the user experience at hand.',
-  paragraphThree: `Check out my projects-`,
-  resume: 'https://drive.google.com/file/d/17uXT5w2fRKMtU5DwwOfWLpaBaVg2FDSH/view?usp=sharing', // if no resume, the button will not show up
+    'An adaptive thinker, I thrive when applying creative flair to find simple solutions to complex problems and build enjoyable and tailored user experiences. I offer a unique blend of organization and imagination and can switch seamlessly between front-end and back-end tasks.',
+  resume: 'https://drive.google.com/file/d/1r8eAampDi81irSeL4MSC0E-r1f0H4_S1/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'Beatbay.png',
+    title: 'Beatbay',
+    info:
+      'My final capstone project for General Assembly’s Software Engineering bootcamp. The prompt was to create a fully functioning CRUD web application using technology we covered in class, as well as to learn and implement a new development tool of my choice. The site is a task management web application for songs, where users can upload songs via drag and drop, view them in a list, and post tasks on individual songs’ dashboards. The back-end API is built using Django’s rest framework, with complex relational models and querying. The front-end is built in React and employs Material UI.',
+    info2: '',
+    url: 'https://vast-dusk-53244.herokuapp.com/',
+    repo: 'https://github.com/mattnoth/songhome-fe', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'simon-project.png',
@@ -43,7 +52,7 @@ export const projectsData = [
     img: 'Diskshelf-Project.png',
     title: 'Diskshelf',
     info:
-      'Ongoing project; a  “video game encyclopedia” with React.js, using a third party API, RAWG, to dynamically fetch data via user input. Users can search a string of test, or filter via a platform, genre, or decade. Clicking on a card generates a game details page, which includes video, pictures and other information about the selection. ',
+      'Ongoing project. A “video game encyclopedia” with React.js, using a third party API, RAWG, to dynamically fetch data via user input. Users can search a string of text, or filter via a platform, genre, or decade. Clicking on a card generates a game details page, which includes video using React Player, pictures and other information about the selection.',
     info2: '',
     url: 'https://diskshelf.herokuapp.com',
     repo: 'https://github.com/mattnoth/diskshelf', // if no repo, the button will not show up
