@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Matthew Noth | Developer', // e.g: 'Name | Developer'
+  title: 'Matt Noth | Developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio website', // e.g: Welcome to my website
 };
@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Matthew Noth',
+  name: 'Matt Noth',
   subtitle: `I'm a software engineer and web developer.`,
   cta: '',
 };
@@ -22,7 +22,8 @@ export const aboutData = {
     'Go-getting software engineer with a background in music production, fresh out of General Assembly’s Software Engineering bootcamp. I am seeking a junior developer role in a small to medium sized development house or web based company to begin my coding career.',
   paragraphTwo:
     'An adaptive thinker, I thrive when applying creative flair to find simple solutions to complex problems and build enjoyable and tailored user experiences. I offer a unique blend of organization and imagination and can switch seamlessly between front-end and back-end tasks.',
-  resume: 'https://drive.google.com/file/d/1r8eAampDi81irSeL4MSC0E-r1f0H4_S1/view?usp=sharing', // if no resume, the button will not show up
+  paragraphThree: `Check out my projects below`,
+  resume: 'https://drive.google.com/file/d/1TKjv_rzVuW9kAa4M5e_unJQt_Tkfh06g/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
