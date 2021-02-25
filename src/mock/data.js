@@ -73,8 +73,8 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: 'musicnoth@gmail.com',
-  email: 'musicnoth@gmail.com',
+  btn: 'matt.j.noth@gmail.com',
+  email: 'matt.j.noth@gmail.com',
 };
 
 // FOOTER DATA
