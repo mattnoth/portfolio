@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile-matt.jpeg',
   paragraphOne:
-    'Go-getting junior software engineer with a background in music production. I am seeking a junior developer role in a small to medium sized development house or web based company to begin my coding career.',
+    'A go-getting junior software engineer with a background in music production, I am seeking a junior developer role in a  medium to larger sized development house or web based company to continue my coding career.',
   paragraphTwo:
     'An adaptive thinker, I thrive when applying my creative flair to find simple solutions to complex problems and build enjoyable, tailored user experiences. I offer a unique blend of organization and imagination and can switch seamlessly between front-end and back-end tasks.',
   paragraphThree: `Check out my projects below`,
-  resume: 'https://drive.google.com/file/d/1my15ydta03pLj5tCzTziHIqhO7cIR6Up/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1z7ybJF75_hHKAMtFYANi1RLllgF_CrdH/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -67,6 +67,15 @@ export const projectsData = [
     info2: '',
     url: 'https://bbfe.herokuapp.com/',
     repo: 'https://github.com/botanicalbabble/front-end', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'castmash.png',
+    title: 'Castmash',
+    info: `Cast Mash is an ongoing group project that takes two actors and "Mashes" them together to find out what movies they've both been in.`,
+    info2: '',
+    url: 'https://cast-mash.netlify.app/',
+    repo: 'https://github.com/mattnoth/cast-mash', // if no repo, the button will not show up
   },
 ];
 
