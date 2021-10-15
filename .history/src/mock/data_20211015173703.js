@@ -22,7 +22,7 @@ export const aboutData = {
     'A go-getting junior software engineer with a background in music production, I am seeking a junior developer role in a  medium to larger sized development house or web based company to continue my coding career.',
   paragraphTwo:
     'An adaptive thinker, I thrive when applying my creative flair to find simple solutions to complex problems and build enjoyable, tailored user experiences. I offer a unique blend of organization and imagination and can switch seamlessly between front-end and back-end tasks.',
-  paragraphThree: 'Check out my projects below.',
+  paragraphThree: `Check out my projects below.`,
   resume: 'https://drive.google.com/file/d/1z7ybJF75_hHKAMtFYANi1RLllgF_CrdH/view?usp=sharing', // if no resume, the button will not show up
 };
 
